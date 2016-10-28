@@ -1,0 +1,42 @@
+/* Мой */
+@media (max-width: 800px) {
+	.top-block1 { margin-bottom: 10px !important; margin-right: 10px !important; display: inline-block;}
+	.top-block { text-align: center !important; display: block !important; }
+}
+
+@media (max-width: 1000px) { 
+	.bottom-flex1{ justify-content: flex-start !important;}
+}
+
+@media (max-width: 1000px) {
+	header.top_header .col-md-2 {display: inline-block !important;}
+	header.top_header .container .container .row { text-align: center; }
+	.soc-bottom img { margin: 0px 9px 8px 0 !important; }
+}
+
+@media (max-width: 700px) { 
+	.bottom-flex2 { margin-top:0 !important; margin-right: 0 !important;}
+	.bottom-flex { background: none !important; }
+	.bottom-block1 { margin: 40px 50px 0 50px !important; }
+	.bottom-block1 { margin-top: 25px !important; }
+	.bottom-flex1{ justify-content: flex-start !important;}
+	body > div > div > div > div.carousel-cell.s1.is-selected > div.bottom-block > div > div.bottom-flex1 > div > p:nth-child(1) { margin: 0 !important; }
+	body > div > div > div > div.carousel-cell.s1.is-selected > div.bottom-block > div > div.bottom-flex2 > p:nth-child(2) { margin: 0 !important; }
+}
+
+@media (max-width: 1200px) {
+	.block1 { flex-direction: column !important; justify-content: flex-end !important; align-items: center !important;}
+	.block1 img { width: 100%; }
+	.txt, .txt1 {width: inherit !important; padding: 10px 40px;}
+}
+
+@media (max-width: 580px) {
+.flex-item { flex-direction: column !important; width: 100% !important; }
+#item1 > div.block1 > img { width: 100% !important; }
+}
+
+@media (max-width : 1185px) {
+    .head_logo img { margin-top: 15px; width: 350px !important;}
+    .head_txt{margin-left: 0 !important; }
+    .top_header .container, .top_header .container .container { width:100% !important; }
+}
